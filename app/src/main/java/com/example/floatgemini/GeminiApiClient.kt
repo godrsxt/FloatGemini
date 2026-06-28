@@ -8,7 +8,7 @@ import org.json.JSONObject
 import java.io.IOException
 
 object GeminiApiClient {
-    private const val API_KEY = "YOUR_NEW_API_KEY_HERE" 
+    private const val API_KEY = "AQ.Ab8RN6LJHbmPs4nciNer-vemSVGFM1DDHMIf7HmOGEzUoXkelA"
     private const val URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=$API_KEY"
     private val client = OkHttpClient()
 
